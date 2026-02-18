@@ -1,0 +1,78 @@
+.centered {
+    text-align: center;
+    margin: top 30px;
+
+}
+
+/* container for the ranking */
+.podium {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+/* box for each place in the ranking */
+.podium .place {
+    background-color: #f0d7a7;
+    width: 100px;
+    text-align: center;
+    border-radius: 30px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+
+.podium .first_place {
+    text-align: center;
+    height: 200px;
+    width: 150px;
+    background-color: #eec984;
+    color: black;
+}
+
+.podium .second_place {
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    background-color: #eec984;
+    color: black;
+}
+
+.podium .third_place {
+    text-align: center;
+    height: 130px;
+    width: 150px;
+    background-color: #eec984;
+    color: black;
+}
+
+/** container for the losers */
+.loser_scores {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+
+
+/* box for each loser score */
+
+.leaderboard_box {
+    background-color: #e2c672;
+    color: black;
+    padding: 20%;
+    width: 300px;
+    text-align: center;
+    border-radius: 50px;
+    gap: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
